@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+//-   script(src='/static/index.js')
+
+block style
+    style 
+        include style.css 
+
+block content
+    div#bg
+        section#IntroSection 
+            div Welcome to 
+            span.text-purple-700 RAP's Academy
+            div.small Where passion meets rhythm! Get ready to embark on a journey of self-expression through dance. Our talented instructors are here to guide you. Let's dance, celebrate, and make unforgettable memories together!
+
+        section#MissonSection 
+            h2 Our Misson
+            div.card 
+                h3 Dance perfection
+                div.card-box
+                    //- div.card-img
+                        //- img(src="../static/spon_img/1.png")
+                    div.card-content
+                        p Striving for dance perfection is a core element of our mission. We aim to help dancers hone their skills, emphasizing precision, technique, and artistic expression.
+            div.card 
+                h3 Expert Teaching
+                div.card-box
+                    //- div.card-img
+                    //-     img(src="../static/spon_img/2.png")
+                    div.card-content
+                        p Our commitment to expert teaching is paramount. We believe in providing high-quality dance instruction delivered by caring and professional instructors who are passionate about nurturing the potential of each dancer.
+            div.card 
+                h3 Dance Unlimited
+                div.card-box
+                    //- div.card-img
+                    //-     img(src="../static/spon_img/3.jpg")
+                    div.card-content
+                        p Strives to provide quality dance instruction through caring, professional instructors within a friendly, family-oriented atmosphere.         
+        br
+        br
+        section#SpansorSection 
+            h2 Our Spansor
+            div#spansor
+                img(src="/static/spon_img/1.png", alt="sponsorImage", Class="spImage")
+                img(src="/static/spon_img/2.png", alt="sponsorImage", Class="spImage")
+                img(src="/static/spon_img/3.jpg", alt="sponsorImage", Class="spImage")

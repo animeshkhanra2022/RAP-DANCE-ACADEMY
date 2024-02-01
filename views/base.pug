@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title RAP's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navber 
+      ul 
+        div#logo
+          img(src="/static/logo.png")
+          | RAP's Academy
+        li.active #[a(href="/") Home]
+        li.link #[a(href="/about") About]
+        li.link #[a(href="/service") Service]
+        li.link #[a(href="/class_info") Class Info]
+        li.link #[a(href="/contact") Contact]
+        div.nav_button 
+          button.Btn.white-Btn#loginBtn Sign In 
+          button.Btn#registerBtn Sign Up
+        div.nav-menu-btn 
+          i.bx.bx-menu 
+
+          
+    block content
+    footer#footer 
+        | Copywrite © 2024 RAPDanceAcademy.com | All Rights  Reserve

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+h1{
+    text-align: center;
+    padding: 23px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myform{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 23px;
+}
+
+.myInput{
+    /* height: 132px; */
+    width: 73%;
+    margin: 7px;
+    padding: 12px;
+    outline: none;
+    border: 2px solid #166b51;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+
+.btn{
+    padding: 6px;
+    margin: 12px;
+    font-size: 17px;
+    color: rgb(228, 228, 244);
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #15634c;
+    cursor: pointer;
+    font-weight: bold;
+
+}
